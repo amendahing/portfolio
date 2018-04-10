@@ -1,0 +1,242 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+html {
+    height: 100%;
+}
+
+body {
+    height: 100%;
+    font-family: "Montserrat";
+    font-size: 13px;
+}
+
+#block-1 {
+    height: 100%;
+    width: 100%;
+    background-color: #fed15b;
+    /* background-image: url("/img/background-4.jpeg"); */
+    /* background:  linear-gradient(rgba(255, 0, 0, 0.25)), url("/img/background-4.jpeg"); */
+    /* background-size: cover; */
+}
+
+#name h1 {
+    font-family: 'Hammersmith One', sans-serif;
+    text-transform: uppercase;
+    color: white;
+}
+
+.heading {
+    font-family: 'Hammersmith One', sans-serif;
+    text-transform: uppercase;
+    /* border: green solid 4px; */
+    width: 250px;
+    text-align: center;
+    margin: 70px auto 30px auto;
+    box-sizing: border-box;
+}
+
+#name{
+    position: absolute;
+    top: 40%;
+    left: 35%;
+    /* border: #4b644c solid 4px; */
+    border: #fed15b solid 4px;
+    padding: 10px;
+    text-align: center;
+    /* background-color: #fed15b; */
+    color: white;
+}
+
+#name h1 {
+    color: #000;
+    font-size: 36px;
+}
+
+#block-2 {
+    /* height: 90%; */
+    width: 100%;
+    /* border: green 3px solid; */
+    box-sizing: border-box;
+    padding-top: 65px;
+    padding-bottom: 120px;
+}
+
+#skills-section {
+    /* margin: 0px auto; */
+    /* border: red 1px solid; */
+    width: 90%;
+    margin: 0 auto;
+    text-align: center;
+    /* position: relative;
+    top: 100px; */
+    box-sizing: border-box;
+}
+
+.end{
+    display:inline-block;
+    width: 200px;
+    /* border: black solid 1px; */
+    margin: 0px 15px;
+    vertical-align: top;
+}
+
+.circle {
+    width: 80px;
+	height: 80px;
+	background: #cbc9bb;
+	-moz-border-radius: 50px;
+	-webkit-border-radius: 50px;
+	border-radius: 50px;
+    margin: 10px auto;
+}
+
+
+
+#block-3 {
+    /* height: 100%;
+    width: 100%; */
+    background-color: #fed15b;
+
+    height: 70%;
+    width: 100%;
+    /* border: green 3px solid; */
+    box-sizing: border-box;
+    padding-top: 15px;
+}
+
+#experience-section {
+    border: white solid 1px;
+    width: 90%;
+    margin: 0px auto;
+    padding: 10px 20px;
+}
+
+.experience-section-info {
+    /* border: black solid 2px; */
+    width: 320px;
+    display: inline-block;
+    vertical-align: top;
+    margin: 0px 20px 20px 0px;
+}
+
+
+#block-4 {
+    margin-bottom: 50px;
+    width: 100%;
+}
+
+#portfolio{
+    /* border: blue solid 2px; */
+    width: 85%;
+    margin: 0px auto;
+}
+
+.portfolio-section {
+    /* border: solid black 1px; */
+    margin-bottom: 20px;
+
+}
+
+.portfolio-section-info {
+    display: inline-block;
+    width: 40%;
+    vertical-align: top;
+    /* border: red solid 2px; */
+    margin: 10px 90px 0px 30px;
+}
+
+.box {
+    width: 240px;
+    /* width: 40%; */
+	height: 120px;
+	background: #cbc9bb    ;
+    /* margin: 10px auto; */
+    margin: 10px 0px 10px 25px;
+    display:inline-block;
+}
+
+#block-5 {
+    background-color: #fed15b;
+    /* height: 70%; */
+    width: 100%;
+    box-sizing: border-box;
+    padding-top: 10px;
+    padding-bottom: 25px;
+}
+
+#block-5 .circle {
+    background-color: white;
+}
+
+.small-box {
+    width: 50px;
+    height: 50px;
+    background: #fff;
+    margin: 10px;
+    display:inline-block;
+}
+
+.contact-box {
+    /* border: black solid 1px; */
+    display: inline-block;
+    width: 220px;
+    margin-bottom: 20px;
+
+}
+
+form {
+    /* border: red solid 1px; */
+    width: 90%;
+    margin: 0px auto;
+
+}
+
+input {
+    border: 2px white solid;
+    border-radius: 2px;
+    margin-bottom: 10px;
+}
+
+input[value="Name"] {
+    width: 39%;
+    height: 15px;
+}
+
+input[value="Email"] {
+    width: 39%;
+    height: 15px;
+    color: #21262a;
+}
+
+input[value="Enter Message"] {
+    width: 79%;
+    height: 100px;
+}
+
+button {
+    background-color: #fff;
+    color: black;
+    padding: 15px;
+    text-align: center;
+    text-transform: uppercase;
+    display: block;
+    border-radius: 8px;
+    margin: 4px auto;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #2c313c;
+    color: white;
+}
+
+#footer {
+    height: 100px;
+    padding-top: 20px;
+    background-color: #21262a;
+    color: white;
+    text-align: center;
+}
