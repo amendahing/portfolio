@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Amenda Hing | Web Developer</title>
+    <title>Amenda H | Front-End Dev</title>
     <link rel="stylesheet" href="style.css">
     <link <link href="https://fonts.googleapis.com/css?family=Hammersmith+One|Montserrat" rel="stylesheet">
 </head>
@@ -12,25 +12,37 @@
     <div id="block-1">
         <div id="name">
             <h1>Amenda Hing</h1>
-            <!-- <h4>Full-Stack Developer</h4> -->
+            <h3>Front-End Developer</h3>
         </div>
     </div>
 
     <div id="block-2">
-        <h1 class="heading">Skills</h1>
+        <h1 class="heading">About Me</h1>
+        <div id="skills-section">
+            <div id="about-me">
+                <p>I am a Bay Area native residing in San Jose. What initially lead me into web development was my curiosity for design and the underlying mechanisms under it. As I explored this field, I found my passion for working with others to bring life to an idea that others will enjoy using. </p>
+                <br>
+                <p>I'm always looking to level up my working skillset, and I currently tackled 3 different stacks: Python, ROR, and Angular. Right now, I'm going to dive in React, CSS animation, as well as SASS. Please feel free to browse through my projects. I would love to hear any feedback you may have, or if you would like to collaborate with me, I would love to hear some of your ideas.</p>
+
+            </div>
+        </div>
+        <h1 class="heading" style="margin-top: 80px;">Skills</h1>
         <div id="skills-section">
             <div class="end">
-                <div class="circle"></div>
+                <!-- <div class="circle"></div> -->
+                <img src="./img/front-end.png">
                 <h3>Front-End</h3>
                 <p>JavaScript | Angular | React | TypeScript | Materialze | HTML5 | CSS3 | SASS</p>
             </div>
             <div class="end">
-                <div class="circle"></div>
+                <!-- <div class="circle"></div> -->
+                <img src="./img/back-end.png">
                 <h3>Back-End</h3>
-                <p>Node.JS | Express | SQL | Mongo | Postman | Django</p>
+                <p>Node.JS | Express | SQL | Mongo | Postman | Rspec Django</p>
             </div>
             <div class="end">
-                <div class="circle"></div>
+                <!-- <div class="circle"></div> -->
+                <img src="./img/languages.png">
                 <h3>Languages</h3>
                 <p>Python | JavaScript | Ruby</p>
             </div>
@@ -59,49 +71,100 @@
     <div id="block-4">
         <h1 class="heading">Portfolio</h1>
         <div id="portfolio">
-            <div class="portfolio-section">
-                <div class="portfolio-section-info">
-                    <h3>Facebook</h3>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque, vitae quaerat id voluptatem ut eos? At magni delectus, mollitia numquam, iste perferendis.</p>
+
+            <div class="portfolio-section" id="port-section-0">
+                <div class="port-title">
+                    <h3>PetFinder</h3>
+                    <p>MEAN Web Application</p>
                 </div>
-                <div class="box"></div>
-            </div>
-            <div class="portfolio-section">
-                <div class="portfolio-section-info">
-                    <h3>Instagram</h3>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque, vitae quaerat id voluptatem ut eos? At magni delectus, mollitia numquam, iste perferendis.</p>
+                <img class="port-img" src="./img/petfinder.png">
+
+                <div class="modal" class="petfinder-modal">
+                    <div class="modal-content">
+                        <span class="exit-btn">&times;</span>
+                        <h1>furever home</h1>
+                        <p>MEAN Web Application</p>
+                        <img class="inside-modal-img" src="./img/petfinder.png">
+
+                        <img class="inside-modal-img" src="./img/petfinder-2.png">
+                        <p>Technology: MEAN, petfinder API</p>
+                    </div>
                 </div>
-                <div class="box"></div>
             </div>
-            <div class="portfolio-section">
-                <div class="portfolio-section-info">
+
+            <div class="portfolio-section" id="port-section-1">
+                <div class="port-title">
+                    <h3>CoffeeRun</h3>
+                    <p>ROR Web Application</p>
+                </div>
+                <img class="port-img" src="./img/coffee-run.png">
+
+                <div class="modal" class="petfinder-modal">
+                    <div class="modal-content">
+                        <span class="exit-btn">&times;</span>
+                        <h1>CoffeeRun</h1>
+                        <p>ROR Web Application</p>
+                        <img class="inside-modal-img" src="./img/coffee-run.png">
+
+                        <img class="inside-modal-img" src="./img/coffeerun-xo.png">
+                        <p>Technology: MEAN, petfinder API</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="portfolio-section" id="port-section-2">
+                <div class="port-title">
+                    <h3>Honda CBR Concept</h3>
+                    <p>ROR Web Application</p>
+                </div>
+                <video class="port-img" src="./img/cbr-promo-vid.mp4"></video>
+                <!-- <img class="port-img" src="./img/petfinder.png"> -->
+
+                <div class="modal" class="petfinder-modal">
+                    <div class="modal-content">
+                        <span class="exit-btn">&times;</span>
+                        <h1>furever home</h1>
+                        <p>MEAN Web Application</p>
+                        <img class="inside-modal-img" src="./img/petfinder.png">
+
+                        <img class="inside-modal-img" src="./img/petfinder-2.png">
+                        <p>Technology: Ruby On Rails, Google Maps API, Yelp Fusion API</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- <div class="portfolio-section">
+                <div class="port-title">
                     <h3>Wit.AI</h3>
                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque, vitae quaerat id voluptatem ut eos? At magni delectus, mollitia numquam, iste perferendis.</p>
                 </div>
                 <div class="box"></div>
             </div>
-        </div>
+        </div> -->
     </div>
 
     <div id="block-5">
         <h1 class="heading">Contact</h1>
         <div id="skills-section">
             <div class="contact-box">
-                <div class="small-box"></div>
+                <!-- <div class="small-box"></div> -->
+                <img src="./img/location.png">
                 <div class="contact-detail">
                     <p>Location</p>
                     <p>San Jose, CA</p>
                 </div>
             </div>
             <div class="contact-box">
-                <div class="small-box"></div>
+                <!-- <div class="small-box"></div> -->
+                <img src="./img/email.png">
                 <div class="contact-detail">
                     <p>E-Mail</p>
                     <p>amendahing@gmail.com</p>
                 </div>
             </div>
             <div class="contact-box">
-                <div class="small-box"></div>
+                <!-- <div class="small-box"></div> -->
+                <img src="./img/phone.png">
                 <div class="contact-detail">
                     <p>Phone</p>
                     <p>(510) 837 - 9608</p>
@@ -118,6 +181,12 @@
 
     <div id="footer">
         <p>Amenda Hing &copy; 2018.</p>
+        <a href="https://www.linkedin.com/in/amenda-hing/"><img src="/img/linkedin-4.png" alt=""></a>
+        <a href="https://github.com/amendahing"><img src="/img/github-2.png" alt=""></a>
+
+
+
     </div>
+    <script src="main.js"></script>
 </body>
 </html>
