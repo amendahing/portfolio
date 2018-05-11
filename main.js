@@ -21,11 +21,11 @@ function setPortSection(num){
 
 
     function displayTitle(){
-        title.style.display = "block"
+        title.style.display = "block";
+        title.style.height = "0px"
     }
 
     function removeTitle(){
-        console.log("ABC")
         title.style.display = "none"
     }
 
@@ -46,58 +46,25 @@ function setPortSection(num){
 
 
 
+function hamburger(x){
+    x.classList.toggle("change")
+}
+
+var menu = document.getElementById('menu')
+var hamham = document.getElementById('hamham')
 
 
+//Display Menu
+hamham.addEventListener('click', toggle)
+var toggleOn = false;
 
-
-
-
-
-
-
-// function clickOutside(e){
-//     if(e.target == modal){
-//         modal.style.display = 'none'
-//     }
-// }
-
-// var modal = document.getElementsByClassName('modal')[0];
-// var modalImg = document.getElementsByClassName('modal-img')[0]
-// var portImg = document.getElementsByClassName('port-img')[0]
-// var exitBtn = document.getElementsByClassName('exit-btn')[0]
-// var portTitle = document.getElementsByClassName('port-title')[0]
-//
-// //Listen for click
-//
-// modalImg.addEventListener('click', openModal);
-// modalImg.addEventListener('mouseover', fadeIn);
-// modalImg.addEventListener('mouseout', fadeOut);
-// exitBtn.addEventListener('click', closeModal);
-// window.addEventListener('click', clickOutside);
-// portImg.addEventListener('mouseover', test)
-//
-// function test(){
-//     portTitle.style.display = 'block'
-// }
-//
-// function openModal(){
-//     modal.style.display = 'block'
-// }
-//
-// function closeModal(){
-//     modal.style.display = 'none'
-// }
-//
-// function clickOutside(e){
-//     if(e.target == modal){
-//         modal.style.display = 'none'
-//     }
-// }
-//
-// function fadeIn(e){
-//     portTitle.style.display = 'block'
-// }
-//
-// function fadeOut(e){
-//     portTitle.style.display = 'none'
-// }
+function toggle(){
+    if (toggleOn === false){
+        menu.style.display = 'block';
+        toggleOn = true;
+    }
+    else if (toggleOn === true){
+        menu.style.display = "none";
+        toggleOn = false;
+    }
+}
